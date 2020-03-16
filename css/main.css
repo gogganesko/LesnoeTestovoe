@@ -1,0 +1,226 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* reset css ends */
+
+
+header .header-wrapper{
+    margin-top: 1%;
+    display:flex;
+    justify-content: flex-end;
+}
+
+.header-menu{
+    display:flex;
+    flex-direction: row;
+}
+
+.header-menu a{
+    align-items: center;
+    width: 100%;
+    display: flex;
+    font-size: 24px;
+    margin-right: 2.3em;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+header .telnum{
+    width: auto;
+    display: flex;
+    font-size: 24px;
+    border: 3px solid #d3c1a2;
+    border-radius: 12px;
+    margin-right: 1em;
+    white-space: nowrap;
+    font-weight: bold;
+    padding: 6px;
+}
+
+.deer{
+    position: absolute;
+    height: 130%;
+    width: 50%;
+    margin: -16% -13%;
+}
+
+.maincontent{
+    margin-top:1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+
+.maincontent-titletop{
+    font-size:24px;
+    margin-left: 30%;
+    margin-top:5%;
+}
+
+.maincontent-titlebot{
+    font-size: 320px;
+    margin-left: 30%;
+    color:#5a8a1d;
+    font-family: 'Viaoda Libre', cursive;
+}
+
+.maincontent-description-frame{
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 38%;
+}
+
+.maincontent-titledescription{
+    font-size: 40px;
+    margin-left: 36%;
+}
+
+.maincontent-description-price1{
+    margin-top:3%;
+    color:#cfbc9e;
+    margin-left:40%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.maincontent-description-price2{
+    color:#cfbc9e;
+    margin-left:40%;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.maincontent-description-price3{
+    color:#cfbc9e;
+    margin-left:42%;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.maincontent-description-list{
+    display:flex;
+    flex-direction: column;
+    margin-left: 40%;
+    margin-top:1%;
+    font-weight: bold;
+}
+
+.maincontent-description-list-item{
+    margin-top: 1%;
+}
+
+.maincontent-bottomframe{
+    background-color: #d3c1a2;
+    margin-left:15%;
+    margin-top:5%;
+    height: 40px;
+    width: 100%;
+    border-top: 3px solid #d3c1a2;
+}
+
+.maincontent-bottomframe-text{
+    margin-left: 10%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.maincontent-bottomframe-dateblock{
+    display:inline-block;
+    margin-left: 1%;
+    background-color: #ffffff;
+    border-radius: 3px;
+
+    padding: 0.6em;
+}
+
+.maincontent-bottomframe-date{
+    font-size: 0.9em;
+}
+
+.maincontent-bottomframe-guests{
+    display:inline-block;
+    margin-left: 1%;
+    background-color: #ffffff;
+    border-radius: 3px;
+    padding: 0.4em;
+}
+
+.maincontent-bottomframe-gueststext{
+    font-size: 0.9em;
+}
+
+.maincontent-bottomframe-findbtn{
+    display: inline-block;
+    background-color: #fbd407;
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    margin-left: 1%;
+    padding: 0.4em;
+    
+}
+
+.gerbtop{
+    position: absolute;
+    margin-top:38%;
+    margin-left:35.5%;
+}
+
+.gerbbot{
+    transform: rotate(180deg);
+    margin-top: -0.01%;
+    margin-right:37%;
+}
